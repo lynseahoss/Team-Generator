@@ -15,32 +15,7 @@ const teamMember = []
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 
-async function teamMembersInfo(){
-    try{
-        const { position } = await teamMembersInfo()
-        if (position === "Intern"){
-            return inquirer.prompt([
-                {
-                    name: "name",
-                    type: "input",
-                    messge: "What is the intern's name?"
-                },
-                {
-                    name: "school",
-                    type: "input",
-                    message: "Where does the intern go to school?"
-                },
-                {
-                    name: "",
-                    type: "",
-                    message: ""
-                }
 
-
-            ])
-        }
-    }
-}
 
 
 
