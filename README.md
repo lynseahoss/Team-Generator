@@ -3,6 +3,7 @@
 ## Project Description
 
 [Template Engine README](https://lynseahoss.github.io/Template-Engine/)
+
 This project is a simple application that allows Employers to create a site to keep track of their current employees. The employer is prompted in Node to enter employee information which is then output into a team.html file. 
 
 This is a responsive application that has foundation in HTML, CSS and Javascript. It utilizes a Semantic UI CSS framework. 
