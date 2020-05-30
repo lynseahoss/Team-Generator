@@ -20,22 +20,22 @@ function managerQuestions(){
        {
            name: "name",
            type: "input",
-           message: "Enter the manager's name"
+           message: "Enter the Manager's name"
        },
        {
         name: "id",
         type: "input",
-        message: "Enter the manager's ID"
+        message: "Enter the Manager's ID"
     },
     {
         name: "email",
         type: "input",
-        message: "Enter the managers's email"
+        message: "Enter the Manager's email"
     },
     {
         name: "officeNum",
         type: "input",
-        message: "Enter the manager's office number"
+        message: "Enter the Manager's office number"
     },
    
    ])
@@ -43,17 +43,60 @@ function managerQuestions(){
  
 }
 
+function engineerQuestions(){
+    return inquirer.prompt([
+        {
+            name: "name",
+            type: "input",
+            message: "Enter the Engineer's name"
+        },
+        {
+         name: "id",
+         type: "input",
+         message: "Enter the Engineer's ID"
+     },
+     {
+         name: "email",
+         type: "input",
+         message: "Enter the Engineer's email"
+     },
+     {
+            name: "github",
+            type: "input",
+            message: "Enter the Engineer's github"
+        }
 
-// {
-//     name: "github",
-//     type: "input",
-//     message: "Enter the employee's github"
-// },
-// {
-//     name: "school",
-//     type: "input",
-//     message: "Enter the employee's school"
-// },
+    ])
+}
+
+function internQuestions(){
+    return inquirer.prompt([
+        {
+            name: "name",
+            type: "input",
+            message: "Enter the Itern's name"
+        },
+        {
+         name: "id",
+         type: "input",
+         message: "Enter the Intern's ID"
+     },
+     {
+         name: "email",
+         type: "input",
+         message: "Enter the Intern's email"
+     },
+     {
+            name: "github",
+            type: "input",
+            message: "Enter the Intern's school"
+        }
+
+    ])
+}
+
+
+
 
 
 
