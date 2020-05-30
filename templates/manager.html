@@ -1,21 +1,33 @@
 <div class="column">
   <div class="ui card">
     <div class="content">
-      <a class="header">{{ name }}</a>
-      <div class="meta">
-        <span class="date"><i class="user icon"></i>{{ role }}</span>
-      </div>
-      <div class="description">
-        Email: <a href="mailto:{{ email }}">{{ email }}</a>
-      </div>
+      <div class="header"><i class="user icon"></i>{{ role }}</div>
     </div>
-    <div class="extra content">
-      <p>
-        ID: {{ id }}
-      </p>
-      <p>
-        Office number: {{ officeNumber }}
-      </p>
+    <div class="content">
+      <h4 class="ui sub header">{{ name }}</h4>
+      <div class="ui small feed">
+        <div class="event">
+          <div class="content">
+            <div class="summary">
+              Email: <a href="mailto:{{ email }}">{{ email }}</a>
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="content">
+            <div class="summary">
+              ID: {{ id }}
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="content">
+            <div class="summary">
+              Office number: {{ officeNumber }}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
